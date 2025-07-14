@@ -1,4 +1,4 @@
-# BubbleScript
+# <p align="center" dir="auto">BubbleScript 🫧</p>
 
 TODO: add compiler ( similar to ScriptScript )
 
