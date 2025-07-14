@@ -13,14 +13,16 @@ var x num = 10;
 `x` is the name of the variable an `num` is the type. There are 5 types: 
 `str`, `num`, `str`, `arr`, `bool`.
 
-Each line should end with `;`, `=` sets value, `==` checks the values, `!` is used to invert (for example `!=`).
+`=` sets value, `==` checks the values, `!` is used to invert (for example `!=`).
 Using `+` on 2 `num` types should return sum, while putting together `str` (for example `'a' + 'b' == 'ab'`),
-`#` can also be used to write comments in your code.
+`#` can also be used to write comments in your code and `''` is used for string.
 
-To define function start with `func` followed by the name + `(){}`, it should look something like this:
+Function is defined with a keyword `func` follow by name and then `()`.
+Paratheses `()` can include parameters, they must be separated by commas.
+Then code that is going to be executed will be inside of curly brackets: `{}`
 ```
 func sum(a,b){
-    return(a + b);
+    return(a + b)
 }
 
 call sum(2,3); # returns 5
