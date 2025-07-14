@@ -25,6 +25,13 @@ func sum(a,b){
     return(a + b)
 }
 
-call sum(2,3); # returns 5
+call sum(2,3) # returns 5
 ```
 This is a simple function which returns the sum of 2 numbers, if you want the function to return a value once called, use `return()`. Then use `call` to call the function! (You may have also realized that you can put string into the function which would result in putting the 2 strings together ... so `call sum('hello','world')` => `'helloworld'`)
+
+# Setup
+
+If you want to transpile to JavaScript you can use something like Node.js and write node followed by the address of the file.
+```
+node c:\Users\[name]\Documents\GitHub\BubbleScript\js-transpiler.js
+```
